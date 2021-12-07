@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="55.779" tests="9" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\HP\Downloads\Selenium\chromedriver_win32\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\HP\eclipse-workspace\E2Ecombined\target\test-classes;C:\Users\HP\eclipse-workspace\E2Ecombined\target\classes;C:\Users\HP\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-rc-2\selenium-java-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-rc-2\selenium-api-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0-rc-2\selenium-devtools-v85-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v93\4.0.0-rc-2\selenium-devtools-v93-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.0.0-rc-2\selenium-devtools-v94-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-rc-2\selenium-edge-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-rc-2\selenium-firefox-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-rc-2\selenium-firefox-xpi-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-rc-2\selenium-ie-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-rc-2\selenium-opera-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-rc-2\selenium-remote-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\io\netty\netty-buffer\4.1.67.Final\netty-buffer-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-common\4.1.67.Final\netty-common-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-epoll\4.1.67.Final\netty-transport-native-epoll-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.67.Final\netty-transport-native-kqueue-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.67.Final\netty-transport-native-unix-common-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport\4.1.67.Final\netty-transport-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-resolver\4.1.67.Final\netty-resolver-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.5.0\opentelemetry-api-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.5.0\opentelemetry-context-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.5.0\opentelemetry-exporter-logging-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.5.0-alpha\opentelemetry-sdk-metrics-1.5.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.5.0\opentelemetry-sdk-common-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.5.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.5.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.5.0\opentelemetry-sdk-trace-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.5.0-alpha\opentelemetry-api-metrics-1.5.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.5.0\opentelemetry-sdk-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.5.0-alpha\opentelemetry-semconv-1.5.0-alpha.jar;C:\Users\HP\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\HP\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\HP\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\HP\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-rc-2\selenium-http-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-rc-2\selenium-safari-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-rc-2\selenium-support-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.6.1\maven-plugin-annotations-3.6.1.jar;C:\Users\HP\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\HP\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-rc-2\selenium-chrome-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.0\auto-service-annotations-1.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service\1.0\auto-service-1.0.jar;C:\Users\HP\.m2\repository\com\google\auto\auto-common\1.0\auto-common-1.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-rc-2\selenium-chromium-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-rc-2\selenium-json-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\HP\.m2\repository\com\newrelic\logging\log4j2\2.3\log4j2-2.3.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.1\jackson-core-2.11.1.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\HP\.m2\repository\com\newrelic\agent\java\newrelic-api\5.6.0\newrelic-api-5.6.0.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.10.0\commons-io-2.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire16526982007867807862\surefirebooter11853225405707759860.jar C:\Users\HP\AppData\Local\Temp\surefire16526982007867807862 2021-10-28T14-03-49_515-jvmRun1 surefire12646804644043588456tmp surefire_01452626410888145742tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\HP\eclipse-workspace\E2Ecombined\target\test-classes;C:\Users\HP\eclipse-workspace\E2Ecombined\target\classes;C:\Users\HP\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-rc-2\selenium-java-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-rc-2\selenium-api-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0-rc-2\selenium-devtools-v85-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v93\4.0.0-rc-2\selenium-devtools-v93-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.0.0-rc-2\selenium-devtools-v94-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-rc-2\selenium-edge-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-rc-2\selenium-firefox-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-rc-2\selenium-firefox-xpi-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-rc-2\selenium-ie-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-rc-2\selenium-opera-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-rc-2\selenium-remote-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\io\netty\netty-buffer\4.1.67.Final\netty-buffer-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-common\4.1.67.Final\netty-common-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-epoll\4.1.67.Final\netty-transport-native-epoll-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.67.Final\netty-transport-native-kqueue-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.67.Final\netty-transport-native-unix-common-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport\4.1.67.Final\netty-transport-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-resolver\4.1.67.Final\netty-resolver-4.1.67.Final.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.5.0\opentelemetry-api-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.5.0\opentelemetry-context-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.5.0\opentelemetry-exporter-logging-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.5.0-alpha\opentelemetry-sdk-metrics-1.5.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.5.0\opentelemetry-sdk-common-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.5.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.5.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.5.0\opentelemetry-sdk-trace-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.5.0-alpha\opentelemetry-api-metrics-1.5.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.5.0\opentelemetry-sdk-1.5.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.5.0-alpha\opentelemetry-semconv-1.5.0-alpha.jar;C:\Users\HP\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.11.13\byte-buddy-1.11.13.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\HP\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\HP\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\HP\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-rc-2\selenium-http-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-rc-2\selenium-safari-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-rc-2\selenium-support-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.6.1\maven-plugin-annotations-3.6.1.jar;C:\Users\HP\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\HP\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\HP\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\HP\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-rc-2\selenium-chrome-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.0\auto-service-annotations-1.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service\1.0\auto-service-1.0.jar;C:\Users\HP\.m2\repository\com\google\auto\auto-common\1.0\auto-common-1.0.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-rc-2\selenium-chromium-driver-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-rc-2\selenium-json-4.0.0-rc-2.jar;C:\Users\HP\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\HP\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\HP\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\HP\.m2\repository\com\newrelic\logging\log4j2\2.3\log4j2-2.3.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.1\jackson-core-2.11.1.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\HP\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\HP\.m2\repository\com\newrelic\agent\java\newrelic-api\5.6.0\newrelic-api-5.6.0.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.10.0\commons-io-2.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\HP\eclipse-workspace\E2Ecombined"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire16526982007867807862\surefirebooter11853225405707759860.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\E2Ecombined"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\python3\Scripts\;C:\python3\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.2\bin;C:\Program Files\Java\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm 2021.1.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="staticDropDownCase0" classname="testCases.url1TestCases" time="19.6">
+    <system-out><![CDATA[Chrome driver initiated
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 95.0.4638.10 (970bcf99e2bb66a6e724fc5a2806974c7d7a0e8d-refs/branch-heads/4638@{#87}) on port 2417
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 28, 2021 2:04:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 28, 2021 2:04:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 95, so returning the closest version found: 94
+Oct 28, 2021 2:04:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 95 of 94
+]]></system-err>
+  </testcase>
+  <testcase name="staticDropDownCase1" classname="testCases.url1TestCases" time="3.061">
+    <system-out><![CDATA[currencyDropDown button has been clicked.
+]]></system-out>
+  </testcase>
+  <testcase name="staticDropDownCase2" classname="testCases.url1TestCases" time="2.019">
+    <system-out><![CDATA[This are all the options = Select
+This are all the options = INR
+This are all the options = AED
+This are all the options = USD
+Select
+USD
+INR
+The Final Currency is INR
+]]></system-out>
+  </testcase>
+  <testcase name="staticDropDownCase3" classname="testCases.url1TestCases" time="7.135">
+    <system-out><![CDATA[64
+This are the options = Adampur (AIP)
+The FROM Location is not available
+This are the options = Ahmedabad (AMD)
+The FROM Location is not available
+This are the options = Amritsar (ATQ)
+The FROM Location is not available
+This are the options = Bagdogra (IXB)
+The FROM Location is not available
+This are the options = Belagavi (IXG)
+The FROM Location is not available
+This are the options = Bengaluru (BLR)
+
+The from location has been selected
+]]></system-out>
+  </testcase>
+  <testcase name="staticDropDownCase4" classname="testCases.url1TestCases" time="5.604">
+    <system-out><![CDATA[This is the size of options = 14
+This are the options = Albania
+The selected option is not available
+This are the options = Antigua and Barbuda
+The selected option is not available
+This are the options = Aruba
+The selected option is not available
+This are the options = Azerbaijan
+The selected option is not available
+This are the options = Bahamas
+The option is selected
+
+]]></system-out>
+  </testcase>
+  <testcase name="staticDropDownCase5" classname="testCases.url1TestCases" time="1.959">
+    <failure message="expected:&lt;&gt; but was:&lt;Seachhhhasd&gt;" type="junit.framework.ComparisonFailure"><![CDATA[junit.framework.ComparisonFailure: expected:<> but was:<Seachhhhasd>
+	at testCases.url1TestCases.staticDropDownCase5(url1TestCases.java:134)
+]]></failure>
+    <system-out><![CDATA[
+]]></system-out>
+  </testcase>
+  <testcase name="staticDropDownCase6" classname="testCases.url1TestCases" time="0.967">
+    <system-out><![CDATA[This is the size of the checklist =5
+Invalid checkbox
+The checkbox is selected
+Invalid checkbox
+Invalid checkbox
+Invalid checkbox
+true
+]]></system-out>
+  </testcase>
+  <testcase name="staticDropDownCase7" classname="testCases.url1TestCases" time="3.107">
+    <system-out><![CDATA[This are the month =October 2021
+This are the available dates =  
+Date has been not selected 
+
+This are the available dates =  
+Date has been not selected 
+
+This are the available dates =  
+Date has been not selected 
+
+This are the available dates =  
+Date has been not selected 
+
+This are the available dates =  
+Date has been not selected 
+
+This are the available dates = 1
+Date has been not selected 
+
+This are the available dates = 2
+Date has been not selected 
+
+This are the available dates = 3
+Date has been not selected 
+
+This are the available dates = 4
+Date has been not selected 
+
+This are the available dates = 5
+Date has been not selected 
+
+This are the available dates = 6
+Date has been not selected 
+
+This are the available dates = 7
+Date has been not selected 
+
+This are the available dates = 8
+Date has been not selected 
+
+This are the available dates = 9
+Date has been not selected 
+
+This are the available dates = 10
+Date has been not selected 
+
+This are the available dates = 11
+Date has been not selected 
+
+This are the available dates = 12
+Date has been not selected 
+
+This are the available dates = 13
+Date has been not selected 
+
+This are the available dates = 14
+Date has been not selected 
+
+This are the available dates = 15
+Date has been not selected 
+
+This are the available dates = 16
+Date has been not selected 
+
+This are the available dates = 17
+Date has been not selected 
+
+This are the available dates = 18
+Date has been not selected 
+
+This are the available dates = 19
+Date has been not selected 
+
+This are the available dates = 20
+Date has been not selected 
+
+This are the available dates = 21
+Date has been not selected 
+
+This are the available dates = 22
+Date has been not selected 
+
+This are the available dates = 23
+Date has been not selected 
+
+This are the available dates = 24
+Date has been not selected 
+
+This are the available dates = 25
+Date has been not selected 
+
+This are the available dates = 26
+Date has been not selected 
+
+This are the available dates = 27
+Date has been not selected 
+
+This are the available dates = 28
+Date has been selected 
+The month is been selected
+]]></system-out>
+  </testcase>
+  <testcase name="staticDropDownCase8" classname="testCases.url1TestCases" time="6.145">
+    <failure message="element click intercepted: Element &lt;span class=&quot;pax-add pax-disabled&quot; id=&quot;hrefIncChd&quot; disabled=&quot;disabled&quot;&gt;...&lt;/span&gt; is not clickable at point (1301, 329). Other element would receive the click: &lt;div class=&quot;ad-row-right&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=95.0.4638.54)&#10;Build info: version: &apos;4.0.0-rc-2&apos;, revision: &apos;8d1e4aa5ae&apos;&#10;System info: host: &apos;DESKTOP-SIMJPDD&apos;, ip: &apos;192.168.1.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6fea9860c25a529779180d1c924e0208, clickElement {id=51745116-2198-47f6-93e3-9b3868e5a851}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.10 (970bcf99e2bb6..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54665/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (6fea9860c25a529779180d1c924e0208)] -&gt; xpath: //div[@class=&apos;ad-row-right&apos;] //span[@id=&apos;hrefIncChd&apos;]]&#10;Session ID: 6fea9860c25a529779180d1c924e0208" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <span class="pax-add pax-disabled" id="hrefIncChd" disabled="disabled">...</span> is not clickable at point (1301, 329). Other element would receive the click: <div class="ad-row-right">...</div>
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '4.0.0-rc-2', revision: '8d1e4aa5ae'
+System info: host: 'DESKTOP-SIMJPDD', ip: '192.168.1.185', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6fea9860c25a529779180d1c924e0208, clickElement {id=51745116-2198-47f6-93e3-9b3868e5a851}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.10 (970bcf99e2bb6..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54665/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6fea9860c25a529779180d1c924e0208)] -> xpath: //div[@class='ad-row-right'] //span[@id='hrefIncChd']]
+Session ID: 6fea9860c25a529779180d1c924e0208
+	at testCases.url1TestCases.staticDropDownCase8(url1TestCases.java:239)
+]]></failure>
+    <system-out><![CDATA[This is the length of passenger options =3
+This is the option Text =ADULT
+Please select the correct option
+This is the option Text =CHILD
+]]></system-out>
+  </testcase>
+</testsuite>

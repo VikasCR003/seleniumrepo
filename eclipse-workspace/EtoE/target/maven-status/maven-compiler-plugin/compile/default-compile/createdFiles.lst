@@ -1,0 +1,4 @@
+pageObjects\loadingPage.class
+pageObjects\loginPage.class
+resources\baseFile.class
+resources\extentReports.class

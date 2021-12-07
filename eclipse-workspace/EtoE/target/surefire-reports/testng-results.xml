@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-12T01:04:05 IST" name="Suite" finished-at="2021-10-12T01:04:52 IST" duration-ms="46490">
+    <groups>
+    </groups>
+    <test started-at="2021-10-12T01:04:05 IST" name="User Cridentials and other" finished-at="2021-10-12T01:04:40 IST" duration-ms="34333">
+      <class name="testCase.testCase">
+        <test-method is-config="true" signature="driverLife()[pri:0, instance:testCase.testCase@7ac0e420]" started-at="2021-10-12T01:04:05 IST" name="driverLife" finished-at="2021-10-12T01:04:16 IST" duration-ms="10064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverLife -->
+        <test-method signature="homePage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.testCase@7ac0e420]" started-at="2021-10-12T01:04:16 IST" name="homePage" data-provider="loginDetails" finished-at="2021-10-12T01:04:21 IST" duration-ms="5666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikascr51@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid User details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testCase.testCase@7ac0e420]" started-at="2021-10-12T01:04:21 IST" name="closeDriver" finished-at="2021-10-12T01:04:22 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="driverLife()[pri:0, instance:testCase.testCase@7ac0e420]" started-at="2021-10-12T01:04:22 IST" name="driverLife" finished-at="2021-10-12T01:04:34 IST" duration-ms="12089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverLife -->
+        <test-method signature="homePage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.testCase@7ac0e420]" started-at="2021-10-12T01:04:34 IST" name="homePage" data-provider="loginDetails" finished-at="2021-10-12T01:04:39 IST" duration-ms="5693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikascr61@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid User details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testCase.testCase@7ac0e420]" started-at="2021-10-12T01:04:39 IST" name="closeDriver" finished-at="2021-10-12T01:04:40 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testCase.testCase -->
+    </test> <!-- User Cridentials and other -->
+    <test started-at="2021-10-12T01:04:05 IST" name="Validating Things" finished-at="2021-10-12T01:04:52 IST" duration-ms="46490">
+      <class name="testCase.testCase">
+        <test-method is-config="true" signature="driverLife()[pri:0, instance:testCase.testCase@2e1ef60]" started-at="2021-10-12T01:04:16 IST" name="driverLife" finished-at="2021-10-12T01:04:34 IST" duration-ms="17221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverLife -->
+        <test-method signature="homePage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.testCase@2e1ef60]" started-at="2021-10-12T01:04:34 IST" name="homePage" data-provider="loginDetails" finished-at="2021-10-12T01:04:39 IST" duration-ms="5304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikascr51@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid User details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testCase.testCase@2e1ef60]" started-at="2021-10-12T01:04:39 IST" name="closeDriver" finished-at="2021-10-12T01:04:40 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="driverLife()[pri:0, instance:testCase.testCase@2e1ef60]" started-at="2021-10-12T01:04:40 IST" name="driverLife" finished-at="2021-10-12T01:04:49 IST" duration-ms="9088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverLife -->
+        <test-method signature="homePage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCase.testCase@2e1ef60]" started-at="2021-10-12T01:04:49 IST" name="homePage" data-provider="loginDetails" finished-at="2021-10-12T01:04:51 IST" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vikascr61@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid User details]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testCase.testCase@2e1ef60]" started-at="2021-10-12T01:04:51 IST" name="closeDriver" finished-at="2021-10-12T01:04:51 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testCase.testCase -->
+      <class name="testCase.validatingThings">
+        <test-method is-config="true" signature="driverLife()[pri:0, instance:testCase.validatingThings@41709512]" started-at="2021-10-12T01:04:05 IST" name="driverLife" finished-at="2021-10-12T01:04:16 IST" duration-ms="10098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverLife -->
+        <test-method signature="validateThings()[pri:0, instance:testCase.validatingThings@41709512]" started-at="2021-10-12T01:04:16 IST" name="validateThings" finished-at="2021-10-12T01:04:16 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateThings -->
+        <test-method signature="verifyTabVisible()[pri:0, instance:testCase.validatingThings@41709512]" started-at="2021-10-12T01:04:16 IST" name="verifyTabVisible" finished-at="2021-10-12T01:04:16 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTabVisible -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testCase.validatingThings@41709512]" started-at="2021-10-12T01:04:51 IST" name="closeDriver" finished-at="2021-10-12T01:04:52 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testCase.validatingThings -->
+    </test> <!-- Validating Things -->
+  </suite> <!-- Suite -->
+</testng-results>
