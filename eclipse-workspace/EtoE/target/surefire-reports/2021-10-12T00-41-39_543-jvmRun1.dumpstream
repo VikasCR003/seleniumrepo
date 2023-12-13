@@ -1,3 +1,0 @@
-# Created at 2021-10-12T00:41:56.962
-Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(java.lang.Throwable)" because "this.test" is null
-
